@@ -1,0 +1,78 @@
+/* 	CSS Document setup */
+
+img, video, object {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Monserrat',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+
+#box1 {
+    background-color: pink;
+    height: 300px;
+}
+
+#box2 {
+    background-color: red;
+    height: 300px;
+}
+
+#box3 {
+    background-color: grey;
+    height: 300px;
+    display: none;
+}
+
+#box4 {
+    background-color: brown;
+    height: 300px;
+    display: none;
+}
+
+@media screen and (min-width: 641px) {
+    #wrap-con {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #box1 {
+        width: 100%;
+        background-color: blue;
+    }
+    #box2 {
+        width: 100%;
+        background-color: purple;
+    }
+    #box3 {
+        width: 100%;
+        display:block;
+    }
+    #box4 {
+        width: 100%;
+        display:block;
+    }
+}
