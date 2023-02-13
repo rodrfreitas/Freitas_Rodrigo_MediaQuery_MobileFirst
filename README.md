@@ -1,4 +1,4 @@
-# Media Queries - Mobilie First - MMED-1056
+# Media Queries - Mobile First - MMED-1056
 
 This project is a single-page web design that utilizes media queries.
 
